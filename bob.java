@@ -12,12 +12,14 @@ public class bob {
         double length = reader.nextDouble();
 
         System.out.println("So you want your rectangle to be " + width + " by " + length);
+        System.out.println("Your area is " + width * length);
 
         System.out.println("Is this right?");
         String correct = reader.next();
-            if (correct == "yes")
+            if (correct.equals("yes"))
                 System.out.println("Thank you!");
-
+            if (correct.equals("no"))
+                System.out.println("Try Again!");
 
 
     }
