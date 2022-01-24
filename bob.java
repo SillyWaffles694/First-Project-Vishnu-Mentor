@@ -19,7 +19,7 @@ public class bob {
             if (correct.equals("yes"))
                 System.out.println("Thank you!");
             if (correct.equals("no"))
-                System.out.println("Well too bad for you");
+                System.out.println("Well too bad for you, the computer is never wrong, check your math fool");
 
 
     }
